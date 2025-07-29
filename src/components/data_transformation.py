@@ -16,6 +16,7 @@ from sklearn.preprocessing import OneHotEncoder,StandardScaler
 
 # data ko transform kerene ke baad kha store kre?
 
+@dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path = os.path.join("artifacts","Preprocessor.pkl")
 
@@ -113,7 +114,7 @@ class DataTransformation:
             return(
                 train_arr,
                 test_arr,
-                self.data_transformation_config.preprocessor_obj_file_path,
+                # self.data_transformation_config.preprocessor_obj_file_path,
             )
             
         except Exception as e:
