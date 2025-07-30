@@ -5,5 +5,8 @@ matplotlib
 Scikit-learn
 xgboost
 catboost
-dill #for pikle file dump kerne ke liye
+dill #for pikle file dump kerne ke liye and pickle se normal file main lane ke liye
+Flask
+
+
 # -e .
