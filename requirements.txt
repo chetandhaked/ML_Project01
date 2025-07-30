@@ -1,12 +1,10 @@
-pandas
-numpy
-seaborn
-matplotlib
-Scikit-learn
-xgboost
-catboost
-dill #for pikle file dump kerne ke liye and pickle se normal file main lane ke liye
-Flask
-
-
-# -e .
+pandas==2.2.2
+numpy==1.26.4
+seaborn==0.12.2
+matplotlib==3.8.4
+scikit-learn==1.4.2
+xgboost==2.0.3
+catboost==1.2.5
+dill==0.3.8
+flask==2.3.3
+gunicorn==21.2.0
